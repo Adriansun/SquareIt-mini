@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>SquareIt</title>
+    </head>
+    <body>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        
+        <center>
+        
+            <label>Enter a number:</label>
+            <input id="postNumber" type="number" value="5" style="width: 100px"> &nbsp; &nbsp;
+            <button type="button" onclick="saveNumber()">Save number</button>
+            <br>
+            <label>The ID-number of the saved number: </label>
+            <output id="respDataId" style="width: 100px"></output>
+            <br>
+            <br>
+            <label>Get the number back squared:</label>
+            <output id="getNumberId" style="width: 100px"></output> &nbsp; &nbsp;
+            <button type="button" onclick="getNumber()">Get number</button>
+            <br>
+            <br>
+            ------------------------------------------------------------
+            <br>
+            <br>
+            <label>Enter an ID of a number to remove:</label>
+            <input id="idToDelete" type="number" style="width: 100px"> &nbsp; &nbsp;
+            <button type="button" onclick="deleteNumber()">Delete number</button> &nbsp; &nbsp;
+            <output id="numberDeleted" style="width: 50px"></output> &nbsp; &nbsp;
+            <br>
+            <br>
+            ------------------------------------------------------------
+            <br>
+            <br>
+            <label>Total number of items in the database:</label>
+            <output id="getAllNumbers" style="width: 100px"></output> &nbsp; &nbsp;
+            <button type="button" onclick="countAllNumbers()">Count numbers</button>
+            <br>
+            <br>
+            ------------------------------------------------------------
+            <br>
+            <br>
+            <label>Get a list of all IDs and numbers from the database:</label>
+            <select id="getListOfNumbers" style="width: 200px"></select> &nbsp; &nbsp;
+            <button type="button" onclick="getListOfAllNumbers()">Get list of all numbers</button>
+
+        </center>
+
+    <script src="js/index.js"></script>
+    </body>
+</html>
